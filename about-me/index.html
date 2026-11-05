@@ -9,6 +9,43 @@
 
 <body>
     <h1 id="top">Иванов Иван</h1>
+    <table>
+        <caption>Занятия на два учебных дня</caption>
+        <thead>
+            <tr>
+                <th scope="col">День</th>
+                <th scope="col">Пара</th>
+                <th scope="col">Занятие</th>
+                <th scope="col">Кабинет</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Понедельник</th>
+                <td>1</td>
+                <td>Учебная практика</td>
+                <td>101</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Учебная практика</td>
+                <td>101</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Консультация</td>
+                <td>102</td>
+            </tr>
+        <tfoot>
+            <tr>
+                <th colspan="3" scope="row">Всего пар</th>
+                <td>6</td>
+            </tr>
+        </tfoot>
+
+        </tbody>
+    </table>
+
     <img src="img/me.jpg" alt="Фотография: Иванов Иван" width="300">
     <nav>
         <ul>
