@@ -1,0 +1,36 @@
+body {
+    color: #243142;
+    background-color: #f5f7fa;
+}
+
+p {
+    color: #333333;
+}
+
+h1 {
+    color: #17365d;
+}
+
+.site-note {
+    font-style: italic;
+}
+
+#top {
+    letter-spacing: 0.03em;
+}
+
+main.nav a {
+    color: #0b5cab;
+}
+
+nav a:hover {
+    color: #8a2c2c;
+}
+
+.page-footer p {
+    color: #243142
+}
+
+.external-link p {
+    color:aqua
+}

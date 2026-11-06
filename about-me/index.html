@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Обо мне - Фамилия и имя студента</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -27,9 +28,6 @@
         </section>
         <!-- Остальные разделы и ссылка Наверх -->
     </main>
-    <footer>
-        <p>Автор: Фамилия Имя. Учебная практика УП.09.</p>
-    </footer>
 
     <h1 id="top">Иванов Иван</h1>
     <table>
@@ -70,7 +68,7 @@
     </table>
 
     <img src="img/me.jpg" alt="Фотография: Иванов Иван" width="300">
-    <nav>
+    <nav class="main-nav">
         <ul>
             <li><a href="index.html">Обо мне</a></li>
             <li><a href="hobby.html">Мои увлечения</a></li>
@@ -78,7 +76,7 @@
             <li><a href="application.html">fdkvmk</a></li>
         </ul>
     </nav>
-    <p>Студент группы ИС-1-25, Чебоксарский экономико-технологический колледж.</p>
+    <p class="site-note">Студент группы ИС-1-25, Чебоксарский экономико-технологический колледж.</p>
     <ul>
         <li><a href="#about">Обо мне</a></li>
         <li><a href="#study">Моя учёба</a></li>
@@ -101,19 +99,18 @@
     </blockquote>
     <p>Автор цитаты</p>
 
-    <h2>Полезные ссылки</h2>
-    <ul>
+    <h2 >Полезные ссылки</h2>
+    <ul class="external-link">
         <li><a href="https://developer.mozilla.org/ru/docs/Web/HTML" target="_blank"
                 rel="noopener noreferrer">Справочник MDN по HTML</a></li>
         <li><a href="https://адрес-сайта-колледжа" target="_blank" rel="noopener noreferrer">Сайт колледжа</a></li>
         <li><a href="mailto:ivanov@example.com">Написать мне письмо</a></li>
     </ul>
+    <p><a href="#top">Наверх</a></p>
 
-
-
-    <p><a href="#top">Наверх</a></p>.
-
+    <footer class="page-footer">
+        <p>Автор: Фамилия Имя. Учебная практика УП.09.</p>
+    </footer>
 
 </body>
-
 </html>
