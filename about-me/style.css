@@ -32,5 +32,14 @@ nav a:hover {
 }
 
 .external-link p {
-    color:aqua
+    color: red
+}
+
+a { color: green; }
+
+.main-nav a { color: purple; }
+
+.main-nav a:focus {
+  outline: 2px solid #17365d;
+  outline-offset: 3px;
 }
