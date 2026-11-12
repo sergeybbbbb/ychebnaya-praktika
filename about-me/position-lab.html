@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лаборатория позиционирования</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="main-nav" aria-label="Главное меню">
+            <ul>
+                <li><a href="index.html">Обо мне</a></li>
+                <li><a href="catalog.html">Каталог</a></li>
+                <li><a href="flex-lab.html">Flexbox</a></li>
+                <li><a href="grid-lab.html">Grid</a></li>
+                <li><a href="position-lab.html" aria-current="page">Позиционирование</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="top">
+        <h1>Лаборатория позиционирования</h1>
+        <p class="lead">Исследуем relative, absolute и sticky.</p>
+
+        <nav class="page-tools" aria-label="Навигация по лабораторной">
+            <a href="#relative-demo">Relative и absolute</a>
+            <a href="#sticky-demo">Sticky</a>
+            <a href="#top">Наверх</a>
+        </nav>
+
+
+        <section id="relative-demo">
+            <h2>Relative и absolute</h2>
+            <div class="position-box">
+                <span class="badge">Новинка</span>
+                <h3>Учебная карточка</h3>
+                <p>Значок размещён относительно этой карточки.</p>
+            </div>
+        </section>
+
+        <section id="sticky-demo" class="long-text">
+            <h2>Проверка прокрутки</h2>
+            <p>Уменьшите высоту окна и прокрутите страницу.</p>
+            <p>Добавьте сюда ещё 5–7 абзацев своего учебного текста, чтобы страница стала длинной.</p>
+        </section>
+    </main>
+
+    <footer class="page-footer">
+        <p>Автор: Фамилия Имя. Учебная практика УП.09.</p>
+    </footer>
+</body>
+
+</html>
